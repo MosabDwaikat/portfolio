@@ -1,0 +1,134 @@
+body{
+    background-color: rgb(70, 70, 70);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .header li {
+    float: left;
+  }
+  
+  .header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .header h1{
+    font-size: 20px;
+    color: white;
+  }
+  
+  
+  .header li a:hover:not(.active) {
+    background-color: rgb(40, 40, 40);
+  }
+  
+  .header .nav-end {
+    float: right;
+  }
+
+
+
+.main{
+    width: 1100px;
+    height: 472.64;
+    color: white;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: rgb(40, 40, 40);
+}
+.m2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+#img1{
+    float: left;
+    margin: 10px; 
+    background-image:linear-gradient(rgb(20, 20, 20),rgb(80, 80, 80)) ;
+    
+}
+
+p{
+    width: 500px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+.p-right{
+    margin-left: auto;
+}
+.why-me-ul{
+    width: 500px;
+    
+
+    
+}
+li{
+    margin: 10px;
+} 
+
+.p-div{
+    position: relative;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+.right-div{
+    
+    width: 320px;
+    float: right;
+    position: relative;
+    top: 50%;
+    transform: translate(0,-50%);
+    
+}
+.right-div h1{
+    font-size: 80px;
+}
+
+.left-div{
+    margin: auto;
+    width: 320px;
+    float: left;
+    
+    
+}
+.left-div h1{
+    font-size: 80px;
+    
+}
+
+i{
+    font-size: 25px;
+     margin: 2px;
+}
+a{
+    color: white;
+}
+.red{
+    color: red;
+}
+.grey{
+    color: rgb(40, 40, 40);
+}
+.contact-title{
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+h1{
+    font-size: 70px;
+}
+h2{
+    font-size: 50px;
+}
+
